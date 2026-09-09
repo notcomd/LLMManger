@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ChatAppAI/ChatAppAI.csproj" />
+  <Project Path="LLMManager/LLMManager.csproj" />
+</Solution>
