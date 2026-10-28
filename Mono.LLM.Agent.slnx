@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Mono.LLM.Agent/Mono.LLM.Agent.csproj" />
+  <Project Path="Mono.LLM.Agent.Tests/Mono.LLM.Agent.Tests.csproj" />
+  <Project Path="Harness/Mono.LLM.Agent.Harness.csproj" />
+</Solution>

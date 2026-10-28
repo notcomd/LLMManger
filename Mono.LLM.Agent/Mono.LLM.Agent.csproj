@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Mono.LLM.Agent</RootNamespace>
+    <LangVersion>latest</LangVersion>
+
+    <PackageId>Mono.LLM.Agent</PackageId>
+    <Version>0.5.0</Version>
+    <Authors>notcomd</Authors>
+    <Description>面向 .NET 的统一 LLM 接入与管理框架：多提供商抽象、重试与故障转移、会话持久化、工具调用、MCP 客户端、技能系统与多智能体编排。</Description>
+    <PackageTags>llm;ai;openai;deepseek;ollama;azure-openai;agent;tool-calling;mcp;dotnet</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/notcomd/LLMManger</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.AI" Version="10.6.0" />
+    <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="10.6.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.8" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Mono.LLM.Agent.Tests" />
+  </ItemGroup>
+
+</Project>

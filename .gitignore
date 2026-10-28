@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# 本地工具与项目元数据（不应提交）
+.workbuddy/
+.vs/
+
+# 图片生成测试产物（约 13 MB，不入库）
+generated-images/
